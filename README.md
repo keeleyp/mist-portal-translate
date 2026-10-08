@@ -4,6 +4,10 @@ Fills in every language of a Mist WLAN guest portal from its default
 (English) text, so admins don't have to translate each prompt by hand in
 the portal editor.
 
+> **Want live translation of customised text (including HTML)?** Use the Claude Desktop
+> edition, [keeleyp/mist-portal-translate-mcp](https://github.com/keeleyp/mist-portal-translate-mcp).
+> It translates only text that's new or changed, using your Claude subscription, with no API key.
+
 ## How it works
 
 1. Reads the WLAN and downloads its portal template (via the WLAN's signed `portal_template_url`).
